@@ -1,4 +1,4 @@
-# Advanced Notepad
+# Windows Notepad
 
 A modern, high-performance Windows 11 text editor built with WPF (.NET 8) and a native C++ engine for large-file handling — designed to replicate and go beyond the built-in Windows 11 Notepad.
 
