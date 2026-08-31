@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; "Open in Advanced Notepad" for all file types
+[HKEY_CLASSES_ROOT\*\shell\AdvancedNotepad]
+@="Open in Advanced Notepad"
+"Icon"="\"C:\\Program Files\\AdvancedNotepad\\AdvancedNotepad.exe\",0"
+
+[HKEY_CLASSES_ROOT\*\shell\AdvancedNotepad\command]
+@="\"C:\\Program Files\\AdvancedNotepad\\AdvancedNotepad.exe\" \"%1\""
+
+; Optional: also add to the classic (non-"Show more options") Win11 menu via
+; sparse packages is not needed for desktop MSI apps — the shell\ key above
+; already surfaces under "Show more options" on Win11, and directly on Win10.

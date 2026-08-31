@@ -1,0 +1,9 @@
+bin/
+obj/
+x64/
+*.user
+*.suo
+.vs/
+*.msi
+*.wixobj
+*.wixpdb
